@@ -48,7 +48,7 @@ public class NotepadDemo {
 			System.out.println("2 Add text to page after removing the existing");
 			System.out.println("3 Delete text form page");
 			System.out.println("4 Print notepad content");
-			System.out.println("5 Exit");
+		
 			int select = sc.nextInt();
 			switch(select){
 			case 0:
