@@ -58,5 +58,9 @@ public class Page {
 			System.out.println(word+" is NOT in the text");
 		}
 	}
+	public boolean containsDigits(){
+		return this.title.matches(".*\\d+.*");
+		
+	}
 
 }
