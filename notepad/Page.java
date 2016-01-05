@@ -44,5 +44,19 @@ public class Page {
 	
 		
 	}
+	public void searchWord(String word){
+		if(this.title.contains(word){
+			System.out.println(word+" is in the title");
+		}
+		else{
+			System.out.println(word+" is NOT in the title");
+		}
+			if(this.text.contains(word){
+			System.out.println(word+" is in the text");
+		}
+		else{
+			System.out.println(word+" is NOT in the text");
+		}
+	}
 
 }
