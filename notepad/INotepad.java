@@ -5,5 +5,7 @@ public interface INotepad {
 	void removeAndAddTextToPage(int i);
 	void deleteTextFromPageN(int i);
 	void printAll();
+	boolean searchWord(String word);
+	void printAllPagesWithDigits() 
 
 }
